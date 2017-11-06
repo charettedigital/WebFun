@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Registration Form</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+    <div class="text">
+        <label for="name">First Name:</label>
+        <input type="text" name="fname">
+    </div>
+    <div>
+        <label for="name">Last Name:</label>
+        <input type="text" name="lname">
+    </div>
+    <div>
+        <label for="name">Email</label>
+        <input type="text" name="email">
+    </div>
+    <div>
+        <label for="name">Password</label>
+        <input type="text" name="password">
+    </div>
+    <div>
+        <label for="name">PW Confirm</label>
+        <input type="text" name="pwconfirm">
+    </div>
+    <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" name:"birthday"><img src="cal.png" alt="calendar_icon" height="20" width="20" align="middle">
+    </div>
+    <div>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+        <input type="radio" name="gender" id="other">Other
+    </div>
+    <div>
+        <p>A short description about yourself:</p>
+        <input type="textarea" name="aboutme">
+    </div>
+    <div>
+        <label class="language" for="favorite_language">Favorite Language</label>
+            <select>
+                <option value="HTML">HTML</option>
+                <option value="Python">Python</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Django">Django</option>
+            </select>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
